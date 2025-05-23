@@ -133,7 +133,7 @@ void recommendSongs(const char* username) {
 }
 
 int main() {
-    loadCSV("load.csv");
+    loadCSV("formatted_scrobbles.csv");
 
     printf("\nLoaded Users:\n");
     for (int i = 0; i < userCount; i++) {
